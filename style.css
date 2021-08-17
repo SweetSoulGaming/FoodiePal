@@ -1,0 +1,66 @@
+.jumbotron {
+    background-color:lightblue;
+    background-size: auto;
+    height: 400px;
+    background-position: 25%, 0, 0, 0;
+}
+​
+.foodies {
+    color: rgb(224, 34, 34);
+    z-index: 1;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 100px;
+    top: 20px;
+    position: relative;
+    font-style: "Gill Sans Extrabold", sans-serif;
+}
+​
+.cities {
+    font-family: "Gill Sans Extrabold", sans-serif;
+    text-align: center;
+    color: green;
+    font-size: 50px;
+}
+​
+.city-label {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+}
+​
+body {
+    background-image: linear-gradient(rgba(41, 190, 86, 0.5), rgba(40, 192, 40, 0.5));
+}
+​
+#places {
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    float: left;
+    
+}
+​
+#landmarks {
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    float: right;
+    
+}
+​
+#click_areas {
+    border-radius: .25rem;
+    background-color: #6b992f;;
+    border-color: #6b992f;;
+    color: white;
+}
+​
+#click_city {
+    border-radius: .25rem;
+    background-color: yellow;
+    border-color: yellowgreen;
+    color: blue;
+}
