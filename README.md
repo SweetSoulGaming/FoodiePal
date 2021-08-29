@@ -30,3 +30,5 @@ You will be employer-competitive if you are able to:
 - Explain agile software development
 - Design, build, and deploy a client-side web application using GitHub Pages
 - Prepare a professional presentation and repository README for your project
+
+*Please note, we are using demo server( https://cors-anywhere.herokuapp.com/corsdemo) to request temporary access to the server because of using Yelp Fusion API that is blocked by CORS policy.
