@@ -42,20 +42,19 @@ function updatePage(yelpData) {
     console.log(yelpData);
     console.log("------------------------------------");
 
+    $("#cards").addClass("hide")
+    $("#footer").addClass("hide")
+     // Create the  list group to contain the businesses and add the business content for each
+     var $businessList = $("<ul>");
+     $businessList.addClass("list-group");
+
     // Loop through and build elements for the defined number of businesses
     for (var i = 0; i < numBusinesses; i++) {
         // Get specific business info for current index
         var business = yelpData.businesses[i];
         console.log(business)
         console.log("------------------------------------");
-
-        // Create the  list group to contain the businesses and add the business content for each
-        var $businessList = $("<ul>");
-        $businessList.addClass("list-group");
-
-        // Add the newly created element to the DOM
-        $("#business-section").append($businessList);
-
+         
         var $businessListItem = $("<li class='list-group-item businessHeadline'>");
         var businessCount = i + 1
 
@@ -75,6 +74,9 @@ function updatePage(yelpData) {
         }
         $businessList.append($businessListItem);
     }
+     // Add the newly created element to the DOM
+     $("#business-section").append($businessList);
+
 }
 
 // Function to empty out the businesses

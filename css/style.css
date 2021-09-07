@@ -165,3 +165,8 @@ body {
   background-color: rgb(255, 255, 255, 0);
   text-align: center;
 }
+
+.hide {
+    display: none;
+  }
+  

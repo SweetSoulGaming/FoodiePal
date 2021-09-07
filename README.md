@@ -1,4 +1,6 @@
-# Group-6
+# Group-6  
+
+*Please note, we are using demo server( https://cors-anywhere.herokuapp.com/corsdemo) to request temporary access to the server because of using Yelp Fusion API that is blocked by CORS policy.
 
 # Unit 7: Project 1
 
